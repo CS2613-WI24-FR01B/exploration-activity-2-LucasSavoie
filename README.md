@@ -1,2 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/RPDAFNpj)
 # EA2
+### What is the package/library?
+The package that this exploartion activity uses is axiom, an HTTP request library that can access information and data on the internet. This library is the same as the one used in the third javascript programming question.

@@ -68,5 +68,30 @@ The library can retrieve information following a very similar format to the code
   ]
 }
 ```
+This snippet was retrieved using the following command.
+```
+const axios = require('axios');
+
+const options = {
+  method: 'GET',
+  url: 'https://tank01-mlb-live-in-game-real-time-statistics.p.rapidapi.com/getMLBPlayerInfo',
+  params: {
+    playerName: 'Mike Trout',
+    getStats: 'false'
+  },
+  headers: {
+    'X-RapidAPI-Key': '55ffd4aaeamsh0a60fd2c5e2d1e4p1a8c8cjsn3e6e7d3e629b',
+    'X-RapidAPI-Host': 'tank01-mlb-live-in-game-real-time-statistics.p.rapidapi.com'
+  }
+};
+
+try {
+	const response = await axios.request(options);
+	console.log(response.data);
+} catch (error) {
+	console.error(error);
+}
+```
+You can see in params, the name 'Mike Trout' was all that was needed to retrieve all that information.
 This format may seem familiar, as it is a JSON. There's lots of information, from team to weight, to even headshots of the players.
-This goes for most API requests, gives a JSON file, where you can parse and retrieve specific information. 
+This goes for most API requests, gives a JSON file, where you can parse and retrieve specific information. The library itself isn't all that useful, however all the API information that can be retreived is very useful, and is a very widely used tool. There are APIs about other sports, stocks, text to speech, and loads of others. 

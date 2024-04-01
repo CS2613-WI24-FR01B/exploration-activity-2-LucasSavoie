@@ -7,13 +7,13 @@ It serves to make request through API's (Application Program Iterfaces) and retr
 It sends a request using a very similar template to the following:
 ```
 const options = {
-  method: yourAPIKeyHere,
+  method: 'GET',
   url: 'https://tank01-mlb-live-in-game-real-time-statistics.p.rapidapi.com/getMLBProjections',
   params: {
     projectionType: '7'
   },
   headers: {
-    'X-RapidAPI-Key': '55ffd4aaeamsh0a60fd2c5e2d1e4p1a8c8cjsn3e6e7d3e629b',
+    'X-RapidAPI-Key': yourAPIKeyHere,
     'X-RapidAPI-Host': 'tank01-mlb-live-in-game-real-time-statistics.p.rapidapi.com'
   }
 };
@@ -25,3 +25,7 @@ try {
 	console.error(error);
 }
 ```
+However, under method, there are many more commands, like set, host, etc. This is a feature in most HTTP request libraries. 
+There are several different API hosting websites, like [RapidAPI](https://rapidapi.com/hub), the one chosen in this example.
+An API key can be created and used for any API and send a request through axios. 
+## What are the functionalities of the library

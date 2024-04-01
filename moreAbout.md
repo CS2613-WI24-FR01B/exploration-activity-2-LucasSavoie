@@ -29,3 +29,4 @@ However, under method, there are many more commands, like set, host, etc. This i
 There are several different API hosting websites, like [RapidAPI](https://rapidapi.com/hub), the one chosen in this example.
 An API key can be created and used for any API and send a request through axios. 
 ## What are the functionalities of the library
+The library can retrieve information following a very similar format to the code above, an example output can be shown below

@@ -28,3 +28,19 @@ Pick a category:
 ```
 The user can pick a number 1 thru 5. If the user picks 1, 2 or 4, they will be given another prompt to sepcify a team, or player to search for.
 Example: 
+```
+Pick a category: 1
+Enter a team abbreviation (Example: CHW for Chicago White Sox):
+```
+The information is then displayed onto the terminal, here is the information on the Los Angeles Player Mike Trout.
+```
+Pick a category: 5
+Enter a player name, try 'Mike Trout': Mike Trout
+Team: LAA
+Height: 6-2
+Pos: CF
+Weight: 235lbs
+```
+The program then ends. If the user wishes to give another prompt, they can run the program again.
+
+If you wish to know more, check out the moreAbout file.

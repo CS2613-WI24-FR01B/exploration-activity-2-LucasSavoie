@@ -69,3 +69,4 @@ The library can retrieve information following a very similar format to the code
 }
 ```
 This format may seem familiar, as it is a JSON. There's lots of information, from team to weight, to even headshots of the players.
+This goes for most API requests, gives a JSON file, where you can parse and retrieve specific information. 

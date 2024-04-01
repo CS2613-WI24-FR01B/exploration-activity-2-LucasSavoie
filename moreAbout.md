@@ -98,4 +98,18 @@ This format may seem familiar, as it is a JSON. There's lots of information, fro
 This goes for most API requests, gives a JSON file, where you can parse and retrieve specific information. The library itself isn't all that useful, however all the API information that can be retreived is very useful, and is a very widely used tool. There are APIs about other sports, stocks, text to speech, and loads of others. 
 ## When was it createad?
 It was made on August 29th, 2014, as per their [github page](https://github.com/axios/axios/tree/main)
-It is also what is known as 'open source'. Allowing for modifications to be made if needed. So there is no one creator or a group of people, it may be hundreds or even thousands. Linux is the most popular example of open source software. 
+It is also what is known as 'open source', allowing for modifications to be made if needed. So there is no one creator or a group of people, it may be hundreds or even thousands. Linux is the most popular example of open source software. 
+## Why did you select this library?
+I wanted to farmiliarize myself with APIs and how to handle requests. Axios was introduced as a part of JavaScript question 3 and it was really intruiging. I wanted to learn more about this use of software, and eventually build a more polished, and in-depth project (maybe not using Axios, but the idea still remains).
+
+In short, I plan on using similar libraries in the future. 
+## How did learning the package/library influence your learning of the language? 
+Asynchronous functions are very useful in JavaScript, not just for HTTP requests, but other things as well. This exploration activty allowed me to have a better understanding of how they work. Also the use of packages in JavaScript was made more clear.	
+## How was your overall experience with the package/library? 
+I enjoyed using this library, it was very straightforward, and after getting the idea for 1 request, modyfing the code to make more specific requests, or several, was quite simple. 
+
+#### When would you recommend this package/library to someone?
+If they chose to use JavaScript, and the data is too large to handle singlehandedly, and not redily available. In the example, getting a baseball players height and weight may seem simple, but getting hundreds of players information is no easy task. This applies to all other APIs mentioned above. 
+
+#### Would you continue using this package/library? Why or why not?
+I would! It's ease of use and variety in terms of APIs are redily available, and make getting information for a potential project simple enough. I am also familiar with it.

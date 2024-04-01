@@ -126,7 +126,7 @@ async function displayTeam(){
       try {
           const response = await axios.request(options);
           for(let i = 0; i < Object.keys(response.data.body).length; i++){
-            console.log(response.data.body[i].teamCity + " " + response.data.body[i].teamName);
+            console.log(response.data.body[i].teamCity + " " + response.data.body[i].teamName + " " + response.data.body[i].teamAbv);
             console.log("\tConference: " + response.data.body[i].conferenceAbv);
             console.log("\tW-L: " + response.data.body[i].wins + "-" + response.data.body[i].loss + "\n");
           }

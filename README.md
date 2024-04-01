@@ -44,3 +44,4 @@ Weight: 235lbs
 The program then ends. If the user wishes to give another prompt, they can run the program again.
 
 If you wish to know more, check out the moreAbout file.
+I also wish for you to delete files after you are done using them. Thanks!

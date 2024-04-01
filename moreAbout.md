@@ -80,7 +80,7 @@ const options = {
     getStats: 'false'
   },
   headers: {
-    'X-RapidAPI-Key': '55ffd4aaeamsh0a60fd2c5e2d1e4p1a8c8cjsn3e6e7d3e629b',
+    'X-RapidAPI-Key': yourAPIKeyHere,
     'X-RapidAPI-Host': 'tank01-mlb-live-in-game-real-time-statistics.p.rapidapi.com'
   }
 };

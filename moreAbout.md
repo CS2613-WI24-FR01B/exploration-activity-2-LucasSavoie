@@ -10,7 +10,7 @@ const options = {
   method: 'GET',
   url: 'https://tank01-mlb-live-in-game-real-time-statistics.p.rapidapi.com/getMLBProjections',
   params: {
-    projectionType: '7'
+    if there are any paramters to narrow search, they would go here
   },
   headers: {
     'X-RapidAPI-Key': yourAPIKeyHere,

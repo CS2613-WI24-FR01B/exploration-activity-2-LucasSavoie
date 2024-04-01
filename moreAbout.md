@@ -93,5 +93,6 @@ try {
 }
 ```
 You can see in params, the name 'Mike Trout' was all that was needed to retrieve all that information.
+
 This format may seem familiar, as it is a JSON. There's lots of information, from team to weight, to even headshots of the players.
 This goes for most API requests, gives a JSON file, where you can parse and retrieve specific information. The library itself isn't all that useful, however all the API information that can be retreived is very useful, and is a very widely used tool. There are APIs about other sports, stocks, text to speech, and loads of others. 

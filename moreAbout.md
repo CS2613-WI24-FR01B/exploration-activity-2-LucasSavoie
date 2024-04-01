@@ -112,4 +112,4 @@ I enjoyed using this library, it was very straightforward, and after getting the
 If they chose to use JavaScript, and the data is too large to handle singlehandedly, and not redily available. In the example, getting a baseball players height and weight may seem simple, but getting hundreds of players information is no easy task. This applies to all other APIs mentioned above. 
 
 #### Would you continue using this package/library? Why or why not?
-I would! It's ease of use and variety in terms of APIs are redily available, and make getting information for a potential project simple enough. I am also familiar with it.
+I would! It's ease of use and variety in terms of APIs are very useful, and make getting information for a potential project simple enough. I am also familiar with it.

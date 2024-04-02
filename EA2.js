@@ -34,6 +34,7 @@ rl.question('Pick a category: ', function(line) {
         });
     } else {
         console.log("Run the program again and enter one of the possible options (1-5).");
+        process.exit(0);
     }
 });
 

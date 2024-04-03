@@ -15,7 +15,7 @@ The above should have everything set for you!
 The program fetches data from an API and displays it. More specifically, it displays information about the current baseball season, which started recently (at least as I'm writing this it has).
 It can fetch data on the league, a team, or a specific player. The goal could be to make an app to display advanced stats of players and teams. 
 ### What could be some sample output?
-To start the program, run the above command, you will be given the following prompt:
+To start the program, run the above node command, you will be given the following prompt:
 ```
 Welcome to the baseball API search, pick a category.
 1. Get team schedule
@@ -32,7 +32,7 @@ Example:
 Pick a category: 1
 Enter a team abbreviation (Example: CHW for Chicago White Sox):
 ```
-The information is then displayed onto the terminal, here is the information on the Los Angeles Player Mike Trout.
+The information is then displayed onto the terminal, here is the information on the Los Angeles Angels player Mike Trout.
 ```
 Pick a category: 5
 Enter a player name, try 'Mike Trout': Mike Trout
